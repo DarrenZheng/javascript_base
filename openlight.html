@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>abc</title>
+	<script type="text/javascript">
+		function changeimage(){
+			light = document.getElementById('image')
+			if(light.src.match("bulbon")){
+				light.src="eg_bulboff.gif"
+			}else{
+				light.src="eg_bulbon.gif"
+			}
+		}
+	</script>
+</head>
+<body>
+
+<img id="image" src="eg_bulboff.gif" onclick="changeimage()">
+<p>will change the light status</p>
+
+</body>
+</html>
