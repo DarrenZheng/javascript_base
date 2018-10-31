@@ -2,9 +2,18 @@
 <html>
 <head>
 	<title>abc</title>
+	<script>
+		function myFunction()
+		{
+			x=document.getElementById("123");  // 找到元素
+			x.innerHTML="Hello JavaScript!";    // 改变内容
+		}
+	</script>
 </head>
 <body>
 	<p>12345</p>
-	<button type="button" onclick="alert('Welcome!')">点击这里</button>
+	<button type="button" onclick="myFunction()">点击这里</button>
+	<p id=123>456</p>
+
 </body>
 </html>
