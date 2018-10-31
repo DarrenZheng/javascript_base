@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>abc</title>
+	<script type="text/javascript">
+		function myFunction(){
+			var demo = document.getElementById("demo").value;
+			if(demo =="" || isNaN(demo)){
+				alert("Not numeric"+demo)
+			}
+		}
+	</script>
+</head>
+<body>
+<h1>this is the frist input</h1>
+<p>please input the number, if it is not number, I will warning you.</p>
+<input type="text" id="demo">
+<button onclick="myFunction()">Click Me</button>
+
+</body>
+</html>
