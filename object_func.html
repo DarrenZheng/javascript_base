@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>abc</title>
+
+	<script type="text/javascript">
+		function persion(firstname, secondname, age, abc){
+			this.firstname = firstname;
+			this.secondname = secondname;
+			this.age = age;
+			this.abc = abc;
+			function changeName(name){
+				this.secondname = name;
+			}
+		}
+
+		mydog = new persion('first', 'second', 18, 123);
+		console.log(mydog.firstname);
+		console.log(mydog.secondname);
+		mydog.changeName("xxx");
+		console.log(mydog.secondname);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
